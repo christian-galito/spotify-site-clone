@@ -1,0 +1,37 @@
+.play-button-container {
+  position: absolute;
+  right: 25px;
+  bottom: 92px;
+  opacity: 0;
+  transition: bottom 0.3s, opacity 0.3s, transform 0s;
+}
+
+.play-button-container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.play-button-container:hover .circle {
+  background-color: #1fdf64;
+}
+
+.circle {
+  position: relative;
+  background-color: #1fd760;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.triangle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-40%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 14px solid black;
+}

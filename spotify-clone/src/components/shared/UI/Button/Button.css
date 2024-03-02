@@ -1,0 +1,13 @@
+.button1 {
+  color: black !important;
+  border-radius: 50px !important;
+  text-transform: none !important;
+  background-color: #f6f6f6 !important;
+  font-weight: bold !important;
+  min-width: 100px !important;
+  font-size: 11px !important;
+}
+
+.button1:hover {
+  transform: scale(1.03);
+}

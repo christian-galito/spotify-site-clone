@@ -1,0 +1,47 @@
+.library-container {
+  color: #a7a7a7;
+}
+
+.library-item-1 {
+  gap: 12px;
+  align-items: center;
+  display: flex;
+}
+
+.library-item-1:hover {
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.library-item-2 {
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+}
+
+.library-item-2:hover {
+  background-color: #1a1a1a;
+  color: white;
+  transition: 0.5s;
+}
+
+.sub-library-container {
+  background-color: #242424;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.has-scroll {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+}

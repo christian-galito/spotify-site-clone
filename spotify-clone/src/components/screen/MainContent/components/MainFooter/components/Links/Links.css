@@ -1,0 +1,40 @@
+.links-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.links-container p {
+  padding: 8px 0px;
+}
+
+.links-div {
+  margin: 8px;
+  padding: 8px;
+  width: 190px;
+}
+
+.links-div p {
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.links-div ul {
+  list-style: none;
+  color: #a7a7a7;
+}
+
+.links-div ul li {
+  list-style: none;
+  color: #a7a7a7;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.links-div ul li:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}

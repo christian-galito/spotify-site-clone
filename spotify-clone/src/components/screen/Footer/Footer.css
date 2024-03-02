@@ -1,0 +1,11 @@
+.footer-container {
+  width: 100%;
+  background-image: linear-gradient(to right, #ae2896, #519bf6);
+  height: 60px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 8px;
+  padding: 12px;
+  align-items: center;
+}

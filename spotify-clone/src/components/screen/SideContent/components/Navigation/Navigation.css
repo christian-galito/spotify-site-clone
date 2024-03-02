@@ -1,0 +1,25 @@
+.nav-container {
+  border-radius: 8px;
+  background-color: #121212;
+  width: 100%;
+  height: 135px;
+  color: #a7a7a7;
+  margin-bottom: 8px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.nav-item {
+  margin: 8px 0;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.nav-active {
+  color: white;
+}
+
+.nav-container div:hover {
+  color: white;
+}
